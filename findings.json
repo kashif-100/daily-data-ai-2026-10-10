@@ -1,0 +1,127 @@
+{
+  "n_reviews": 1800,
+  "date_range": [
+    "2026-04-01",
+    "2026-10-09"
+  ],
+  "sentiment_share": {
+    "positive": 0.6461,
+    "negative": 0.2444,
+    "neutral": 0.1094
+  },
+  "avg_rating_by_category": {
+    "Running Shoes": 3.59,
+    "Smartphone": 3.66,
+    "Headphones": 3.68,
+    "Coffee Maker": 3.73,
+    "Laptop": 3.73
+  },
+  "negative_rate_by_category": {
+    "Running Shoes": 0.2618,
+    "Smartphone": 0.2589,
+    "Headphones": 0.245,
+    "Laptop": 0.2295,
+    "Coffee Maker": 0.2226
+  },
+  "worst_category": "Running Shoes",
+  "worst_category_negative_rate": 0.2618,
+  "best_category": "Laptop",
+  "best_category_avg_rating": 3.73,
+  "avg_review_len_by_sentiment": {
+    "negative": 72.9,
+    "neutral": 41.2,
+    "positive": 74.2
+  },
+  "monthly_sentiment_share": {
+    "negative": {
+      "2026-04": 0.2361,
+      "2026-05": 0.2027,
+      "2026-06": 0.2209,
+      "2026-07": 0.277,
+      "2026-08": 0.2442,
+      "2026-09": 0.2746,
+      "2026-10": 0.2796
+    },
+    "neutral": {
+      "2026-04": 0.0556,
+      "2026-05": 0.1216,
+      "2026-06": 0.1124,
+      "2026-07": 0.1295,
+      "2026-08": 0.1353,
+      "2026-09": 0.0986,
+      "2026-10": 0.1183
+    },
+    "positive": {
+      "2026-04": 0.7083,
+      "2026-05": 0.6757,
+      "2026-06": 0.6667,
+      "2026-07": 0.5935,
+      "2026-08": 0.6205,
+      "2026-09": 0.6268,
+      "2026-10": 0.6022
+    }
+  },
+  "classifier_metrics": {
+    "accuracy": 0.9938,
+    "precision": 0.9915,
+    "recall": 1.0,
+    "f1": 0.9957,
+    "roc_auc": 1.0,
+    "n_train": 1282,
+    "n_test": 321
+  },
+  "top_positive_words": [
+    "highly",
+    "highly recommend",
+    "excellent",
+    "quality excellent",
+    "day disappointed",
+    "use day",
+    "day",
+    "superb",
+    "superb quality",
+    "stars",
+    "stars complaints",
+    "expectations",
+    "exceeded expectations",
+    "exceeded",
+    "said"
+  ],
+  "top_negative_words": [
+    "poor",
+    "poor build",
+    "frustrating use",
+    "frustrating",
+    "waste",
+    "waste money",
+    "star generous",
+    "star",
+    "generous",
+    "refund",
+    "want refund",
+    "want",
+    "plus",
+    "terrible",
+    "match description"
+  ],
+  "top_complaints": [
+    {
+      "product_name": "Nova X1",
+      "rating": 1,
+      "helpful_votes": 38,
+      "review_text": "Defective on arrival. Not worth the price."
+    },
+    {
+      "product_name": "FleetRun Trail",
+      "rating": 2,
+      "helpful_votes": 36,
+      "review_text": "Waste of money, although the cushioning is fantastic."
+    },
+    {
+      "product_name": "FleetRun Air",
+      "rating": 1,
+      "helpful_votes": 32,
+      "review_text": "Stopped working within a month. Poor build quality."
+    }
+  ]
+}
